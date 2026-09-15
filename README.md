@@ -1,68 +1,55 @@
-# 🌧️ AVANI – AI-Based Early Warning & Landslide Risk Monitoring System
+# 🌧️ AVANI – Landslide Risk Monitoring System
 
 ### SIH 26001 | Northeast India (NER)
 
-AVANI is an AI-powered landslide risk monitoring and early warning system designed for the **Northeastern Region (NER) of India**.
+AVANI is an **AI-based early warning and landslide risk monitoring system** designed for the Northeastern Region of India.
 
-The system combines **AI/ML-based risk assessment, rainfall and environmental data, GIS mapping, citizen reporting, real-time alerts, and disaster-aware evacuation routing** to support citizens, field officers, and district-level disaster management authorities.
+## 🎯 Objective
 
----
+To identify landslide-prone areas, provide risk information, support citizen reporting, and assist authorities during emergencies.
 
-## 🎯 Problem Statement
+## 🚀 Key Features
 
-Landslides in Northeast India frequently affect roads, villages, infrastructure, and communities, especially during heavy rainfall.
-
-Existing systems may lack:
-
-- Real-time localized risk assessment
-- Integrated GIS-based monitoring
-- Citizen-based incident reporting
-- Dynamic road blockage information
-- Disaster-aware evacuation routes
-- Explainable AI-based risk information
-- Effective coordination between citizens and authorities
-
-AVANI aims to provide a unified platform for **early risk identification, monitoring, reporting, and emergency response**.
-
----
-
-## 💡 Proposed Solution
-
-AVANI collects and analyzes relevant environmental and geographical information to estimate landslide risk.
-
-The platform provides:
-
-- 🤖 AI-based landslide risk assessment
-- 🗺️ Interactive GIS risk maps
-- 🌧️ Rainfall and weather monitoring
-- 📍 Geo-tagged citizen reports
-- 📸 Photo and video incident reporting
-- 🚨 Risk alerts and notifications
-- 🛣️ Dynamic safe-route planning
+- 🤖 AI-based landslide risk prediction
+- 🔍 Explainable AI (SHAP) – "Why this risk?"
+- 🗺️ GIS-based risk mapping
+- 🌧️ Rainfall & environmental monitoring
+- 📸 Geo-tagged citizen reports
+- 🚨 Real-time alerts
+- 🛣️ Disaster-aware safe routes
 - 🏠 Safe shelter identification
-- 👨‍🚒 Field officer verification
+- 👷 Field officer verification
 - 🏛️ District administration dashboard
-- 📱 Offline/PWA support for low-network areas
+- 📱 Offline/PWA support
 
----
+## 🛠️ Technologies
 
-## 🔄 System Workflow
+- **Frontend:** React, TypeScript, Vite, Tailwind CSS
+- **Backend:** Node.js
+- **AI/ML:** Python, Scikit-learn, Pandas, GeoPandas, SHAP
+- **GIS:** Leaflet / MapLibre, GeoJSON
+- **Routing:** A* Algorithm
+- **AI Assistant:** Gemini API
+- **Data:** IMD, ISRO/NRSC, GSI & historical landslide data
 
-```text
-Data Sources
-     ↓
-Rainfall + Terrain + Soil Moisture + Historical Data
-     ↓
-AI/ML Risk Assessment
-     ↓
-Risk Score & Risk Level
-     ↓
-GIS Visualization
-     ↓
-Alerts & Notifications
-     ↓
-Emergency Response
-     ↓
-Safe Routes + Safe Shelters
-     ↓
-Field Verification & District Management
+## 👥 User Roles
+
+- **Citizen:** View risks, receive alerts, report incidents
+- **Field Officer:** Verify reports and update field conditions
+- **District Admin:** Monitor risks and coordinate emergencies
+
+## 🔄 Workflow
+
+Data Collection → AI Risk Analysis → GIS Mapping → Alerts → Emergency Response → Safe Route & Shelter
+
+## 🏆 SIH Details
+
+**Problem Statement:** SIH 26001  
+**Project:** AVANI  
+**Team:** The Innovators  
+**Domain:** Disaster Management  
+**Region:** Northeast India
+
+## ⚠️ Disclaimer
+
+AVANI is an academic/hackathon prototype for disaster-management decision support. Predictions should be verified by authorized authorities before real-world emergency use.
