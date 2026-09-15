@@ -1,0 +1,6 @@
+{
+  "name": "AVANI - Landslide Alert",
+  "description": "Protecting land, Protecting lives. Production-grade disaster management, AI landslide risk prediction, real-time GIS monitoring, emergency reporting, and safe evacuation routing for North East India.",
+  "requestFramePermissions": ["geolocation", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
